@@ -1,0 +1,7 @@
+Importer Log Report
+Document: C:\Users\Andrew\Downloads\PCB1_BioTron\Epic_Library.kicad_sym
+    Section : Analyze Document from - C:\Users\Andrew\Downloads\PCB1_BioTron\Epic_Library.kicad_sym
+        Warning: Unknown child 'generator_version' of 'kicad_symbol_lib'.
+        Warning: Unknown child exclude_from_sim of symbol.
+        Warning: Unknown child embedded_fonts of symbol.
+    EndSection
