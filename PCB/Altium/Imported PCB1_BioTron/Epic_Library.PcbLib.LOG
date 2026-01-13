@@ -1,0 +1,37 @@
+Importer Log Report
+Document: C:\Users\Andrew\Downloads\PCB1_BioTron\Epic_Library.pretty
+    Section : Analyze Document from - C:\Users\Andrew\Downloads\PCB1_BioTron\Epic_Library.pretty
+        Warning: Unknown child generator_version of footprint.
+        Warning: Unknown child unlocked of property.
+        Warning: Unknown child uuid of property.
+        Warning: Unknown child stroke of fp_rect.
+        Warning: Unknown child uuid of fp_rect.
+        Warning: Unknown child unlocked of fp_text.
+        Warning: Unknown child uuid of fp_text.
+        Warning: Unknown child unlocked of fp_text.
+        Warning: Unknown child uuid of fp_text.
+        Warning: Unknown child unlocked of fp_text.
+        Warning: Unknown child uuid of fp_text.
+        Warning: Unknown child unlocked of fp_text.
+        Warning: Unknown child uuid of fp_text.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child embedded_fonts of footprint.
+    EndSection
+    Section : Import Document - C:\Users\Andrew\Downloads\PCB1_BioTron\Imported PCB1_BioTron\Epic_Library.PcbLib
+        Event: Component REF** was successfully imported.
+        Section : Component REF** importing.
+            Event: Rect was successfully imported.
+            Event: Text 'user GND' was successfully imported.
+            Event: Text 'user OUT' was successfully imported.
+            Event: Text 'user VCC' was successfully imported.
+            Event: Text 'user ${REFERENCE}' was successfully imported.
+            Event: Pad 1 on [9.5,1] was successfully imported.
+            Event: Pad 2 on [9.5,-2] was successfully imported.
+            Event: Pad 3 on [9.5,-5] was successfully imported.
+        EndSection
+    EndSection

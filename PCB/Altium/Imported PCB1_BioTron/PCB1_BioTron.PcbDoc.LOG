@@ -1,0 +1,1433 @@
+Importer Log Report
+Document: C:\Users\Andrew\Downloads\PCB1_BioTron\PCB1_BioTron.kicad_pcb
+    Section : Analyze Document from - C:\Users\Andrew\Downloads\PCB1_BioTron\PCB1_BioTron.kicad_pcb
+        Warning: Unknown child 'generator_version' of 'kicad_pcb'.
+        Warning: Unknown child legacy_teardrops of general.
+        Warning: Unknown child allow_soldermask_bridges_in_footprints of setup.
+        Warning: Unknown child tenting of setup.
+        Warning: Unknown child uuid of footprint.
+        Warning: Unknown child uuid of property.
+        Warning: Unknown child sheetname of footprint.
+        Warning: Unknown child sheetfile of footprint.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child uuid of fp_text.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child embedded_fonts of footprint.
+        Warning: Unknown child uuid of footprint.
+        Warning: Unknown child uuid of property.
+        Warning: Unknown child sheetname of footprint.
+        Warning: Unknown child sheetfile of footprint.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child uuid of fp_text.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child embedded_fonts of footprint.
+        Warning: Unknown child uuid of footprint.
+        Warning: Unknown child uuid of property.
+        Warning: Unknown child sheetname of footprint.
+        Warning: Unknown child sheetfile of footprint.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_rect.
+        Warning: Unknown child uuid of fp_rect.
+        Warning: Unknown child stroke of fp_rect.
+        Warning: Unknown child uuid of fp_rect.
+        Warning: Unknown child stroke of fp_rect.
+        Warning: Unknown child uuid of fp_rect.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_rect.
+        Warning: Unknown child uuid of fp_rect.
+        Warning: Unknown child stroke of fp_rect.
+        Warning: Unknown child uuid of fp_rect.
+        Warning: Unknown child uuid of fp_text.
+        Warning: Unknown child uuid of fp_text.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child embedded_fonts of footprint.
+        Warning: Unknown child uuid of footprint.
+        Warning: Unknown child uuid of property.
+        Warning: Unknown child sheetname of footprint.
+        Warning: Unknown child sheetfile of footprint.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child uuid of fp_text.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child embedded_fonts of footprint.
+        Warning: Unknown child uuid of footprint.
+        Warning: Unknown child uuid of property.
+        Warning: Unknown child sheetname of footprint.
+        Warning: Unknown child sheetfile of footprint.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child uuid of fp_text.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child embedded_fonts of footprint.
+        Warning: Unknown child uuid of footprint.
+        Warning: Unknown child uuid of property.
+        Warning: Unknown child sheetname of footprint.
+        Warning: Unknown child sheetfile of footprint.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child uuid of fp_text.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child embedded_fonts of footprint.
+        Warning: Unknown child uuid of footprint.
+        Warning: Unknown child uuid of property.
+        Warning: Unknown child sheetname of footprint.
+        Warning: Unknown child sheetfile of footprint.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child uuid of fp_text.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child embedded_fonts of footprint.
+        Warning: Unknown child uuid of footprint.
+        Warning: Unknown child uuid of property.
+        Warning: Unknown child sheetname of footprint.
+        Warning: Unknown child sheetfile of footprint.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child uuid of fp_text.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child embedded_fonts of footprint.
+        Warning: Unknown child uuid of footprint.
+        Warning: Unknown child uuid of property.
+        Warning: Unknown child sheetname of footprint.
+        Warning: Unknown child sheetfile of footprint.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child uuid of fp_text.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child embedded_fonts of footprint.
+        Warning: Unknown child uuid of footprint.
+        Warning: Unknown child uuid of property.
+        Warning: Unknown child sheetname of footprint.
+        Warning: Unknown child sheetfile of footprint.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child uuid of fp_text.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child embedded_fonts of footprint.
+        Warning: Unknown child uuid of footprint.
+        Warning: Unknown child uuid of property.
+        Warning: Unknown child sheetname of footprint.
+        Warning: Unknown child sheetfile of footprint.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child uuid of fp_text.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child embedded_fonts of footprint.
+        Warning: Unknown child uuid of footprint.
+        Warning: Unknown child uuid of property.
+        Warning: Unknown child sheetname of footprint.
+        Warning: Unknown child sheetfile of footprint.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child uuid of fp_text.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child embedded_fonts of footprint.
+        Warning: Unknown child uuid of footprint.
+        Warning: Unknown child unlocked of property.
+        Warning: Unknown child uuid of property.
+        Warning: Unknown child sheetname of footprint.
+        Warning: Unknown child sheetfile of footprint.
+        Warning: Unknown child stroke of fp_rect.
+        Warning: Unknown child uuid of fp_rect.
+        Warning: Unknown child unlocked of fp_text.
+        Warning: Unknown child uuid of fp_text.
+        Warning: Unknown child unlocked of fp_text.
+        Warning: Unknown child uuid of fp_text.
+        Warning: Unknown child unlocked of fp_text.
+        Warning: Unknown child uuid of fp_text.
+        Warning: Unknown child unlocked of fp_text.
+        Warning: Unknown child uuid of fp_text.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child embedded_fonts of footprint.
+        Warning: Unknown child uuid of footprint.
+        Warning: Unknown child uuid of property.
+        Warning: Unknown child sheetname of footprint.
+        Warning: Unknown child sheetfile of footprint.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_circle.
+        Warning: Unknown child uuid of fp_circle.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_circle.
+        Warning: Unknown child uuid of fp_circle.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child zone of footprint.
+        Warning: Unknown child zone of footprint.
+        Warning: Unknown child zone of footprint.
+        Warning: Unknown child zone of footprint.
+        Warning: Unknown child zone of footprint.
+        Warning: Unknown child zone of footprint.
+        Warning: Unknown child zone of footprint.
+        Warning: Unknown child zone of footprint.
+        Warning: Unknown child zone of footprint.
+        Warning: Unknown child zone of footprint.
+        Warning: Unknown child zone of footprint.
+        Warning: Unknown child zone of footprint.
+        Warning: Unknown child embedded_fonts of footprint.
+        Warning: Unknown child uuid of footprint.
+        Warning: Unknown child uuid of property.
+        Warning: Unknown child sheetname of footprint.
+        Warning: Unknown child sheetfile of footprint.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child uuid of fp_text.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child embedded_fonts of footprint.
+        Warning: Unknown child uuid of footprint.
+        Warning: Unknown child unlocked of property.
+        Warning: Unknown child uuid of property.
+        Warning: Unknown child sheetname of footprint.
+        Warning: Unknown child sheetfile of footprint.
+        Warning: Unknown child stroke of fp_rect.
+        Warning: Unknown child uuid of fp_rect.
+        Warning: Unknown child unlocked of fp_text.
+        Warning: Unknown child uuid of fp_text.
+        Warning: Unknown child unlocked of fp_text.
+        Warning: Unknown child uuid of fp_text.
+        Warning: Unknown child unlocked of fp_text.
+        Warning: Unknown child uuid of fp_text.
+        Warning: Unknown child unlocked of fp_text.
+        Warning: Unknown child uuid of fp_text.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child embedded_fonts of footprint.
+        Warning: Unknown child uuid of footprint.
+        Warning: Unknown child unlocked of property.
+        Warning: Unknown child uuid of property.
+        Warning: Unknown child sheetname of footprint.
+        Warning: Unknown child sheetfile of footprint.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_rect.
+        Warning: Unknown child uuid of fp_rect.
+        Warning: Unknown child stroke of fp_rect.
+        Warning: Unknown child uuid of fp_rect.
+        Warning: Unknown child unlocked of fp_text.
+        Warning: Unknown child uuid of fp_text.
+        Warning: Unknown child unlocked of fp_text.
+        Warning: Unknown child uuid of fp_text.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child property of pad.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child property of pad.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child property of pad.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child property of pad.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child embedded_fonts of footprint.
+        Warning: Unknown child uuid of footprint.
+        Warning: Unknown child uuid of property.
+        Warning: Unknown child sheetname of footprint.
+        Warning: Unknown child sheetfile of footprint.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_poly.
+        Warning: Unknown child uuid of fp_poly.
+        Warning: Unknown child stroke of fp_rect.
+        Warning: Unknown child uuid of fp_rect.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child uuid of fp_text.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child embedded_fonts of footprint.
+        Warning: Unknown child uuid of footprint.
+        Warning: Unknown child uuid of property.
+        Warning: Unknown child sheetname of footprint.
+        Warning: Unknown child sheetfile of footprint.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child uuid of fp_text.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child embedded_fonts of footprint.
+        Warning: Unknown child uuid of footprint.
+        Warning: Unknown child hide of property.
+        Warning: Unknown child uuid of property.
+        Warning: Unknown child stroke of fp_poly.
+        Warning: Unknown child uuid of fp_poly.
+        Warning: Unknown child stroke of fp_poly.
+        Warning: Unknown child uuid of fp_poly.
+        Warning: Unknown child stroke of fp_poly.
+        Warning: Unknown child uuid of fp_poly.
+        Warning: Unknown child stroke of fp_poly.
+        Warning: Unknown child uuid of fp_poly.
+        Warning: Unknown child stroke of fp_poly.
+        Warning: Unknown child uuid of fp_poly.
+        Warning: Unknown child stroke of fp_poly.
+        Warning: Unknown child uuid of fp_poly.
+        Warning: Unknown child stroke of fp_poly.
+        Warning: Unknown child uuid of fp_poly.
+        Warning: Unknown child stroke of fp_poly.
+        Warning: Unknown child uuid of fp_poly.
+        Warning: Unknown child embedded_fonts of footprint.
+        Warning: Unknown child stroke of gr_circle.
+        Warning: Unknown child uuid of gr_circle.
+        Warning: Unknown child stroke of gr_circle.
+        Warning: Unknown child uuid of gr_circle.
+        Warning: Unknown child stroke of gr_circle.
+        Warning: Unknown child uuid of gr_circle.
+        Warning: Unknown child stroke of gr_rect.
+        Warning: Unknown child uuid of gr_rect.
+        Warning: Unknown child stroke of gr_circle.
+        Warning: Unknown child uuid of gr_circle.
+        Warning: Unknown child uuid of gr_text.
+        Warning: Unknown child uuid of gr_text.
+        Warning: Unknown child uuid of gr_text.
+        Warning: Unknown child 'bold' of 'font'.
+        Warning: Unknown child uuid of gr_text.
+        Warning: Unknown child 'bold' of 'font'.
+        Warning: Unknown child uuid of via.
+        Warning: Unknown child uuid of via.
+        Warning: Unknown child uuid of via.
+        Warning: Unknown child uuid of via.
+        Warning: Unknown child uuid of via.
+        Warning: Unknown child uuid of via.
+        Warning: Unknown child uuid of via.
+        Warning: Unknown child uuid of via.
+        Warning: Unknown child uuid of via.
+        Warning: Unknown child uuid of via.
+        Warning: Unknown child uuid of via.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of via.
+        Warning: Unknown child uuid of via.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of via.
+        Warning: Unknown child uuid of via.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of segment.
+        Warning: Unknown child uuid of zone.
+        Warning: Unknown child uuid of zone.
+        Warning: Unknown child island_removal_mode of fill.
+        Warning: Unknown child island_area_min of fill.
+        Warning: Unknown child uuid of zone.
+        Warning: Unknown child uuid of zone.
+        Warning: Unknown child uuid of zone.
+        Warning: Unknown child island_removal_mode of fill.
+        Warning: Unknown child island_area_min of fill.
+        Warning: Unknown child uuid of zone.
+        Warning: Unknown child 'embedded_fonts' of 'kicad_pcb'.
+    EndSection
+    Section : Import Document - C:\Users\Andrew\Downloads\PCB1_BioTron\Imported PCB1_BioTron\PCB1_BioTron.PcbDoc
+        Event: Nets was imported.
+        Event: Net Classes was imported.
+        Event: Component D3 was successfully imported.
+        Event: Component BT1 was successfully imported.
+        Event: Component SW1 was successfully imported.
+        Event: Component C1 was successfully imported.
+        Event: Component D1 was successfully imported.
+        Event: Component TH1 was successfully imported.
+        Event: Component R3 was successfully imported.
+        Event: Component R2 was successfully imported.
+        Event: Component R1 was successfully imported.
+        Event: Component R4 was successfully imported.
+        Event: Component R6 was successfully imported.
+        Event: Component D2 was successfully imported.
+        Event: Component S2 was successfully imported.
+        Event: Component U2 was successfully imported.
+        Event: Component C2 was successfully imported.
+        Event: Component S1 was successfully imported.
+        Event: Component J1 was successfully imported.
+        Event: Component U1 was successfully imported.
+        Event: Component R5 was successfully imported.
+        Event: Component G*** was successfully imported.
+        Event: Rect was successfully imported.
+        Event: Rect was successfully imported.
+        Event: Rect was successfully imported.
+        Event: Rect was successfully imported.
+        Event: Rect was successfully imported.
+        Event: Text '-' was successfully imported.
+        Event: Text '+' was successfully imported.
+        Event: Text 'BioTron' was successfully imported.
+        Event: Text 'Created by Alice and Aidan' was successfully imported.
+        Event: Via on [151,-84] was successfully imported.
+        Event: Via on [147.5,-84] was successfully imported.
+        Event: Via on [150.5,-80] was successfully imported.
+        Event: Via on [151,-82] was successfully imported.
+        Event: Via on [158.5,-82] was successfully imported.
+        Event: Via on [154,-84] was successfully imported.
+        Event: Via on [160.5,-82] was successfully imported.
+        Event: Via on [141,-82] was successfully imported.
+        Event: Via on [147.5,-82] was successfully imported.
+        Event: Via on [154,-82] was successfully imported.
+        Event: Via on [143,-82] was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Event: Via on [160.5,-86] was successfully imported.
+        Event: Via on [158.5,-86] was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Event: Via on [143,-86] was successfully imported.
+        Event: Via on [141,-86] was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Event: Line with 2 vertices was successfully imported.
+        Event: Zone with 4 vertices was successfully imported.
+        Event: Zone with 6 vertices was successfully imported.
+        Event: Zone with 8 vertices was successfully imported.
+        Event: Zone with 6 vertices was successfully imported.
+        Event: Zone with 4 vertices was successfully imported.
+        Event: Zone with 6 vertices was successfully imported.
+        Section : Component D3 importing.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 4 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 5 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Event: Text 'user ${REFERENCE}' was successfully imported.
+            Event: Pad 1 on [-0.7875,-0] was successfully imported.
+            Event: Pad 2 on [0.7875,-0] was successfully imported.
+        EndSection
+        Section : Component BT1 importing.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 7 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 3 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 5 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Event: Text 'user ${REFERENCE}' was successfully imported.
+            Event: Pad 1 on [0,-0] was successfully imported.
+            Event: Pad 2 on [2,-0] was successfully imported.
+        EndSection
+        Section : Component SW1 importing.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 3 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 5 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Event: Rect was successfully imported.
+            Event: Rect was successfully imported.
+            Event: Rect was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Event: Rect was successfully imported.
+            Event: Rect was successfully imported.
+            Event: Text 'user ${REFERENCE}' was successfully imported.
+            Event: Text 'user on' was successfully imported.
+            Event: Pad 1 on [0,-0] was successfully imported.
+            Event: Pad 2 on [7.62,-0] was successfully imported.
+        EndSection
+        Section : Component C1 importing.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 5 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Event: Text 'user ${REFERENCE}' was successfully imported.
+            Event: Pad 1 on [-0.775,-0] was successfully imported.
+            Event: Pad 2 on [0.775,-0] was successfully imported.
+        EndSection
+        Section : Component D1 importing.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 4 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 5 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Event: Text 'user ${REFERENCE}' was successfully imported.
+            Event: Pad 1 on [-0.7875,-0] was successfully imported.
+            Event: Pad 2 on [0.7875,-0] was successfully imported.
+        EndSection
+        Section : Component TH1 importing.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 5 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Event: Text 'user ${REFERENCE}' was successfully imported.
+            Event: Pad 1 on [-0.825,-0] was successfully imported.
+            Event: Pad 2 on [0.825,-0] was successfully imported.
+        EndSection
+        Section : Component R3 importing.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 5 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Event: Text 'user ${REFERENCE}' was successfully imported.
+            Event: Pad 1 on [-0.825,-0] was successfully imported.
+            Event: Pad 2 on [0.825,-0] was successfully imported.
+        EndSection
+        Section : Component R2 importing.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 5 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Event: Text 'user ${REFERENCE}' was successfully imported.
+            Event: Pad 1 on [-0.825,-0] was successfully imported.
+            Event: Pad 2 on [0.825,-0] was successfully imported.
+        EndSection
+        Section : Component R1 importing.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 5 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Event: Text 'user ${REFERENCE}' was successfully imported.
+            Event: Pad 1 on [-0.825,-0] was successfully imported.
+            Event: Pad 2 on [0.825,-0] was successfully imported.
+        EndSection
+        Section : Component R4 importing.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 5 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Event: Text 'user ${REFERENCE}' was successfully imported.
+            Event: Pad 1 on [-0.825,-0] was successfully imported.
+            Event: Pad 2 on [0.825,-0] was successfully imported.
+        EndSection
+        Section : Component R6 importing.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 5 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Event: Text 'user ${REFERENCE}' was successfully imported.
+            Event: Pad 1 on [-0.825,-0] was successfully imported.
+            Event: Pad 2 on [0.825,-0] was successfully imported.
+        EndSection
+        Section : Component D2 importing.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 4 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 5 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Event: Text 'user ${REFERENCE}' was successfully imported.
+            Event: Pad 1 on [-0.7875,-0] was successfully imported.
+            Event: Pad 2 on [0.7875,-0] was successfully imported.
+        EndSection
+        Section : Component S2 importing.
+            Event: Rect was successfully imported.
+            Event: Text 'user OUT' was successfully imported.
+            Event: Text 'user GND' was successfully imported.
+            Event: Text 'user VCC' was successfully imported.
+            Event: Text 'user ${REFERENCE}' was successfully imported.
+            Event: Pad 1 on [9.5,1] was successfully imported.
+            Event: Pad 2 on [9.5,-2] was successfully imported.
+            Event: Pad 3 on [9.5,-5] was successfully imported.
+        EndSection
+        Section : Component U2 importing.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 4 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 8 vertices was successfully imported.
+            Event: Rect was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 5 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Event: Rect was successfully imported.
+            Event: Pad 1 on [-8.1,7.62] was successfully imported.
+            Event: Pad 2 on [-8.1,5.08] was successfully imported.
+            Event: Pad 3 on [-8.1,2.54] was successfully imported.
+            Event: Pad 4 on [-8.1,-0] was successfully imported.
+            Event: Pad 5 on [-8.1,-2.54] was successfully imported.
+            Event: Pad 6 on [-8.1,-5.08] was successfully imported.
+            Event: Pad 7 on [-8.1,-7.62] was successfully imported.
+            Event: Pad 8 on [8.1,-7.62] was successfully imported.
+            Event: Pad 9 on [8.1,-5.08] was successfully imported.
+            Event: Pad 10 on [8.1,-2.54] was successfully imported.
+            Event: Pad 11 on [8.1,-0] was successfully imported.
+            Event: Pad 12 on [8.1,2.54] was successfully imported.
+            Event: Pad 13 on [8.1,5.08] was successfully imported.
+            Event: Pad 14 on [8.1,7.62] was successfully imported.
+        EndSection
+        Section : Component C2 importing.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 5 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Event: Text 'user ${REFERENCE}' was successfully imported.
+            Event: Pad 1 on [-0.775,-0] was successfully imported.
+            Event: Pad 2 on [0.775,-0] was successfully imported.
+        EndSection
+        Section : Component S1 importing.
+            Event: Rect was successfully imported.
+            Event: Text 'user OUT' was successfully imported.
+            Event: Text 'user GND' was successfully imported.
+            Event: Text 'user VCC' was successfully imported.
+            Event: Text 'user ${REFERENCE}' was successfully imported.
+            Event: Pad 1 on [9.5,1] was successfully imported.
+            Event: Pad 2 on [9.5,-2] was successfully imported.
+            Event: Pad 3 on [9.5,-5] was successfully imported.
+        EndSection
+        Section : Component J1 importing.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Event: Rect was successfully imported.
+            Event: Rect was successfully imported.
+            Event: Text 'user PCB Edge' was successfully imported.
+            Event: Text 'user ${REFERENCE}' was successfully imported.
+            Event: Pad A5 on [-0.5,3.08] was successfully imported.
+            Event: Pad A9 on [1.52,3.08] was successfully imported.
+            Event: Pad A12 on [2.75,3.08] was successfully imported.
+            Event: Pad B5 on [0.5,3.08] was successfully imported.
+            Event: Pad B9 on [-1.52,3.08] was successfully imported.
+            Event: Pad B12 on [-2.75,3.08] was successfully imported.
+            Event: Pad S1 on [-4.32,3] was successfully imported.
+            Event: Pad S1 on [-4.32,-0.8] was successfully imported.
+            Event: Pad S1 on [4.32,3] was successfully imported.
+            Event: Pad S1 on [4.32,-0.8] was successfully imported.
+        EndSection
+        Section : Component U1 importing.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 3 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 3 vertices was successfully imported.
+            Event: Graphical polygone with 3 vertices was successfully imported.
+            Event: Rect was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Event: Text 'user ${REFERENCE}' was successfully imported.
+            Event: Pad 1 on [-2.1125,1] was successfully imported.
+            Event: Pad 2 on [-2.1125,0.5] was successfully imported.
+            Event: Pad 3 on [-2.1125,-0] was successfully imported.
+            Event: Pad 4 on [-2.1125,-0.5] was successfully imported.
+            Event: Pad 5 on [-2.1125,-1] was successfully imported.
+            Event: Pad 6 on [2.1125,-1] was successfully imported.
+            Event: Pad 7 on [2.1125,-0.5] was successfully imported.
+            Event: Pad 8 on [2.1125,-0] was successfully imported.
+            Event: Pad 9 on [2.1125,0.5] was successfully imported.
+            Event: Pad 10 on [2.1125,1] was successfully imported.
+        EndSection
+        Section : Component R5 importing.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 5 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Event: Line with 2 vertices was successfully imported.
+            Event: Text 'user ${REFERENCE}' was successfully imported.
+            Event: Pad 1 on [-0.825,-0] was successfully imported.
+            Event: Pad 2 on [0.825,-0] was successfully imported.
+        EndSection
+        Section : Component G*** importing.
+            Event: Graphical polygone with 6 vertices was successfully imported.
+            Event: Graphical polygone with 7 vertices was successfully imported.
+            Event: Graphical polygone with 8 vertices was successfully imported.
+            Event: Graphical polygone with 9 vertices was successfully imported.
+            Event: Graphical polygone with 19 vertices was successfully imported.
+            Event: Graphical polygone with 23 vertices was successfully imported.
+            Event: Graphical polygone with 31 vertices was successfully imported.
+            Event: Graphical polygone with 465 vertices was successfully imported.
+        EndSection
+    EndSection
