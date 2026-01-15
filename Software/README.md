@@ -14,3 +14,6 @@ Receiver:
 Note:
 - When using ESP-NOW, only the following GPIO pins are available to use:
 - 32, 33, 34, 35, 36, 37, 38, 39
+
+# ML
+There is an colab extension in vscode so we no longer need the web colab
