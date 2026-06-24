@@ -2,9 +2,220 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid dcf7d921-9fa7-446a-8676-88c652188ea2)
+	(uuid "dcf7d921-9fa7-446a-8676-88c652188ea2")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 90.17 22.86)
+		(size 53.34 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "087a670f-b9d2-4330-a800-40dd12f9dee0")
+		(property "Sheetname" "afe_ads1299"
+			(at 90.17 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "afe_ads1299.kicad_sch"
+			(at 90.17 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EMG_wristband"
+				(path "/dcf7d921-9fa7-446a-8676-88c652188ea2"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 123.19)
+		(size 53.34 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "790391a5-ccd9-4ed3-afd9-087a7444487c")
+		(property "Sheetname" "preprocessing"
+			(at 21.59 122.4784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "preprocessing.kicad_sch"
+			(at 21.59 158.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EMG_wristband"
+				(path "/dcf7d921-9fa7-446a-8676-88c652188ea2"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 91.44 72.39)
+		(size 54.61 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a2197b5e-7eba-4bbd-bf10-3906a0f0cab1")
+		(property "Sheetname" "wifi"
+			(at 91.44 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "wifi.kicad_sch"
+			(at 91.44 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EMG_wristband"
+				(path "/dcf7d921-9fa7-446a-8676-88c652188ea2"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 73.66)
+		(size 52.07 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cc464b8a-f49a-4b45-94cd-60cb8e2d0ad3")
+		(property "Sheetname" "mcu"
+			(at 21.59 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 21.59 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EMG_wristband"
+				(path "/dcf7d921-9fa7-446a-8676-88c652188ea2"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 21.59)
+		(size 52.07 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d46317f1-4d1a-4464-adef-e39641ec2484")
+		(property "Sheetname" "power"
+			(at 20.32 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 20.32 60.2746 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EMG_wristband"
+				(path "/dcf7d921-9fa7-446a-8676-88c652188ea2"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

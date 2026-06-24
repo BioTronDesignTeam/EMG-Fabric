@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ADS1299IPAGR")(type "KiCad")(uri "C:/Users/justi/projects/Design Teams/Biotron/Biotron_github/EMG-Fabric/Custom EMG Sensor/project_libs/ADS1299IPAGR/KiCADv6/2026-06-24_14-12-59.kicad_sym")(options "")(descr ""))
+)
