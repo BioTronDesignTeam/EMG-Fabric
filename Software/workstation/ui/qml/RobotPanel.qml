@@ -23,6 +23,7 @@ ScrollView {
                   : "Shadow Hand E3M5 model · 24 joints driven by 20 position actuators, including coupled finger tendons."
             color: "#9db1c2"; Layout.fillWidth: true; wrapMode: Text.WordWrap
         }
+        Button { text: (hand && hand.plot_label) ? "Pause Hand Gesture" : "Resume Hand Gesture"; onClicked: hand.toggleplot()}
         Label { text: "Manual testing · no gesture inference\nThe supplied model pose is the zero reference."; color: "#9db1c2"; Layout.fillWidth: true; wrapMode: Text.WordWrap }
         RowLayout {
             Button { text: hand && hand.modelIndex === 0 ? "CAD rest" : "Rest"; enabled: hand && hand.ready; onClicked: hand.setPose('rest') }

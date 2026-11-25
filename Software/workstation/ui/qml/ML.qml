@@ -22,6 +22,21 @@ ScrollView {
                 phantom.setChannelCount(16)
             }
     }
+     FileDialog {
+            id: checkpointFileDialog
+
+            title: "Load EMG signal data"
+            fileMode: FileDialog.OpenFile
+
+            nameFilters: [
+                "Checkpoint files (*.ckpt)",
+                "All files (*)"
+            ]
+
+            onAccepted: {
+                ml.loadcheckpointFile(selectedFile)
+            }
+    }
 
     id: panel
     clip: true; contentWidth: availableWidth
@@ -31,11 +46,13 @@ ScrollView {
         ComboBox {
             objectName: "MLModelSelector"
             Layout.fillWidth: true
-            model: ["coughing baby","hydrogen bomb"]
+            model: ml ? ml.models: []
             currentIndex: ml ? ml.modelIndex : 0
-            onActivated: index => ml.setModel(index === 0 ? "coughing baby" : "hydrogen bomb")
+            onActivated: index => ml.setModel(currentText)
         }
         Button { text: "Load HDF5 recording"; onClicked: signalFileDialog.open() }
-        Button { text: (hand && hand.plot_label) ? "Pause Hand Gesture" : "Resume Hand Gesture"; onClicked: hand.toggleplot()}
+        Label {text: (workspace && workspace.filename) ? "Loaded file: " + workspace.filename : "No files loaded";  color: "#dce7ee";}
+        Button { text: "Load Checkpoint"; onClicked: checkpointFileDialog.open() }
+        Label {text: (ml && ml.checkpoint) ? "Loaded file: " + ml.checkpoint : "No files loaded";  color: "#dce7ee";}
     }
 }

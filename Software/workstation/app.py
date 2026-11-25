@@ -23,6 +23,7 @@ def main():
     source = SyntheticSource(bus)
     SignalPlot.bus = bus
     HandController.bus = bus
+    MLController.bus = bus
     qmlRegisterType(SignalPlot, 'Workstation', 1, 0, 'SignalPlot')
     hand = HandController()
     bridge = WorkspaceBridge(source, hand)
