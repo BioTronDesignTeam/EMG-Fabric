@@ -56,7 +56,8 @@ class SyntheticSource:
                 # the solved volume conductor; output is millivolts.
                 samples = lead_field @ (activation[:, None] * muscle)
                 samples.setflags(write=False)
-                self.bus.publish(SignalBlock(index, self.sample_rate, samples))
+                labels = None
+                self.bus.publish(SignalBlock(index, self.sample_rate, samples, labels))
                 index += 40
             deadline += 0.02
             self._stop.wait(max(0, deadline - time.monotonic()))

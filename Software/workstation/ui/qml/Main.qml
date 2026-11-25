@@ -1,6 +1,7 @@
 import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
+import QtQuick.Dialogs
 import Workstation 1.0
 
 ApplicationWindow {
@@ -24,6 +25,7 @@ ApplicationWindow {
 
     component Caption: Label { color: "#8fa4b5"; font.pixelSize: 11 }
     component Action: Button { implicitHeight: 34; }
+
 
     ColumnLayout {
         anchors.fill: parent; spacing: 1
@@ -75,49 +77,98 @@ ApplicationWindow {
                     SceneViewport { Layout.fillWidth: true; Layout.fillHeight: true; title: "Digital forearm"; onElectrodeSelected: { root.selected = "Electrode array"; root.panel = "Phantom" } }
                     SceneViewport { Layout.fillWidth: true; Layout.fillHeight: true; robot: true; title: "Bionic hand"; onRobotSelected: root.panel = "Robot" }
                 }
-                Rectangle {
-                    Layout.fillWidth: true
-                    Layout.preferredHeight: root.expanded ? 300 : 176
-                    color: "#141e29"; radius: 10; border.color: "#283746"
-                    Behavior on Layout.preferredHeight { NumberAnimation { duration: 180 } }
-                    ColumnLayout {
-                        anchors.fill: parent; anchors.margins: 12; spacing: 6
-                        RowLayout {
-                            Label { text: "SIGNAL MONITOR"; color: "#d5e4ed"; font.bold: true; font.pixelSize: 11 }
-                            Caption { text: (phantom ? phantom.channelCount : 4) + " CHANNELS  ·  FEA-DERIVED  ·  2 s WINDOW  ·  ±0.025 mV" }
-                            Item { Layout.fillWidth: true }
-                            Action { text: root.expanded ? "Collapse ↓" : "Expand ↑"; onClicked: root.expanded = !root.expanded }
-                        }
-                        ScrollView {
-                            id: signalScroll
-                            Layout.fillWidth: true; Layout.fillHeight: true
-                            clip: true
-                            contentWidth: availableWidth
-                            contentHeight: Math.max(availableHeight, (phantom ? phantom.channelCount : 4)*28)
-                            ScrollBar.horizontal.policy: ScrollBar.AlwaysOff
-                            Row {
-                                width: signalScroll.availableWidth
-                                height: signalScroll.contentHeight
-                                Column {
-                                    width: 48; height: parent.height
-                                    Repeater {
-                                        model: phantom ? phantom.channelCount : 4
-                                        Caption {
-                                            required property int index
-                                            width: 48; height: signalScroll.contentHeight/(phantom ? phantom.channelCount : 4)
-                                            text: "CH " + String(index+1).padStart(2,"0")
-                                            verticalAlignment: Text.AlignVCenter
+                RowLayout {
+                    Layout.fillWidth: true; Layout.fillHeight: true; spacing: 12
+                    Rectangle{
+                        Layout.fillWidth: true
+                        Layout.preferredHeight: root.expanded ? 300 : 176
+                        color: "#141e29"; radius: 10; border.color: "#283746"
+                        Behavior on Layout.preferredHeight { NumberAnimation { duration: 180 } }
+                        ColumnLayout {
+                            anchors.fill: parent; anchors.margins: 12; spacing: 6
+                            RowLayout {
+                                Label { text: "SIGNAL MONITOR"; color: "#d5e4ed"; font.bold: true; font.pixelSize: 11 }
+                                Caption { text: (phantom ? phantom.channelCount : 4) + " CHANNELS  ·  FEA-DERIVED  ·  2 s WINDOW  ·  ±0.025 mV" }
+                                Item { Layout.fillWidth: true }
+                                Action { text: root.expanded ? "Collapse ↓" : "Expand ↑"; onClicked: root.expanded = !root.expanded }
+                            }
+                            ScrollView {
+                                id: signalScroll
+                                Layout.fillWidth: true; Layout.fillHeight: true
+                                clip: true
+                                contentWidth: availableWidth
+                                contentHeight: Math.max(availableHeight, (phantom ? phantom.channelCount : 4)*28)
+                                ScrollBar.horizontal.policy: ScrollBar.AlwaysOff
+                                Row {
+                                    width: signalScroll.availableWidth
+                                    height: signalScroll.contentHeight
+                                    Column {
+                                        width: 48; height: parent.height
+                                        Repeater {
+                                            model: phantom ? phantom.channelCount : 4
+                                            Caption {
+                                                required property int index
+                                                width: 48; height: signalScroll.contentHeight/(phantom ? phantom.channelCount : 4)
+                                                text: "CH " + String(index+1).padStart(2,"0")
+                                                verticalAlignment: Text.AlignVCenter
+                                            }
                                         }
                                     }
-                                }
-                                SignalPlot {
-                                    objectName: "emgPlot"
-                                    width: parent.width-48; height: parent.height; clip: true
-                                    channelCount: phantom ? phantom.channelCount : 4
+                                    SignalPlot {
+                                        objectName: "emgPlot"
+                                        width: parent.width-48; height: parent.height; clip: true
+                                        channelCount: phantom ? phantom.channelCount : 4
+                                    }
                                 }
                             }
+                            Caption { visible: root.expanded; text: "FEA-derived synthetic waveform · filtering, spectrum, recording and export arrive in the signal-processing milestone." }
                         }
-                        Caption { visible: root.expanded; text: "FEA-derived synthetic waveform · filtering, spectrum, recording and export arrive in the signal-processing milestone." }
+                    }
+                    Rectangle{
+                        Layout.fillWidth: true
+                        Layout.preferredHeight: root.expanded ? 300 : 176
+                        color: "#141e29"; radius: 10; border.color: "#283746"
+                        Behavior on Layout.preferredHeight { NumberAnimation { duration: 180 } }
+                        ColumnLayout {
+                            anchors.fill: parent; anchors.margins: 12; spacing: 6
+                            RowLayout {
+                                Label { text: "LABEL MONITOR"; color: "#d5e4ed"; font.bold: true; font.pixelSize: 11 }
+                                Caption { text: (20) + " CHANNELS  ·  2 s WINDOW  ·  ±2 rads" }
+                                Item { Layout.fillWidth: true }
+                                Action { text: root.expanded ? "Collapse ↓" : "Expand ↑"; onClicked: root.expanded = !root.expanded }
+                            }
+                            ScrollView {
+                                id: labelScroll
+                                Layout.fillWidth: true; Layout.fillHeight: true
+                                clip: true
+                                contentWidth: availableWidth
+                                contentHeight: Math.max(availableHeight, (20)*28)
+                                ScrollBar.horizontal.policy: ScrollBar.AlwaysOff
+                                Row {
+                                    width: labelScroll.availableWidth
+                                    height: labelScroll.contentHeight
+                                    Column {
+                                        width: 48; height: parent.height
+                                        Repeater {
+                                            model: 20
+                                            Caption {
+                                                required property int index
+                                                width: 48; height: labelScroll.contentHeight/20
+                                                text: "CH " + String(index+1).padStart(2,"0")
+                                                verticalAlignment: Text.AlignVCenter
+                                            }
+                                        }
+                                    }
+                                    SignalPlot {
+                                        objectName: "signalPlot"
+                                        data_type: "joint_angles"
+                                        width: parent.width-48; height: parent.height; clip: true
+                                        channelCount: 20
+                                    }
+                                }
+                            }
+                            Caption { visible: root.expanded; text: "FEA-derived synthetic waveform · filtering, spectrum, recording and export arrive in the signal-processing milestone." }
+                        }
                     }
                 }
             }
@@ -136,11 +187,19 @@ ApplicationWindow {
                     Label {
                         visible: root.panel !== "Phantom" && root.panel !== "Robot"
                         Layout.fillWidth: true; wrapMode: Text.WordWrap; color: "#a9bac8"; lineHeight: 1.4
-                        text: root.panel === "Signals" ? (phantom ? phantom.channelCount : 4) + " FEA-derived synthetic channels sampled at 2,000 samples per second. The monitor displays the latest two seconds. Scroll to inspect all channels. Pause stops the source clock." : root.panel === "ML" ? "No trained model loaded. Dataset selection, training, evaluation and live inference will connect here." : root.panel === "Hardware" ? "Source: software simulation\n\nSTM32: disconnected\nADS1291 / ADS1299: unavailable\nSPI / DMA: unavailable\nJitter / CRC / packet loss: unmeasured\nSerial / BLE: disconnected" : "Dark workspace theme\n\nDrag either scene to orbit. Use the mouse wheel to zoom. Both scenes remain visible when tools open."
+                        text: root.panel === "Signals" 
+                            ? (phantom ? phantom.channelCount : 4) + " FEA-derived synthetic channels sampled at 2,000 samples per second. The monitor displays the latest two seconds. Scroll to inspect all channels. Pause controls the active acquisition source." 
+                            : root.panel === "ML" 
+                            ? "Select Model, load dataset and checkpoints. " 
+                            : root.panel === "Hardware" 
+                            ? "Source: software simulation\n\nSTM32: disconnected\nADS1291 / ADS1299: unavailable\nSPI / DMA: unavailable\nJitter / CRC / packet loss: unmeasured\nSerial / BLE: disconnected" 
+                            : "Dark workspace theme\n\nDrag either scene to orbit. Use the mouse wheel to zoom. Both scenes remain visible when tools open."
                     }
                     Action { visible: root.panel === "Signals"; text: (workspace && workspace.running) ? "Pause acquisition" : "Resume acquisition"; onClicked: workspace.toggleRunning() }
+                    Button { objectName: "useSyntheticSourceButton"; visible: root.panel === "Signals"; text: "Use synthetic data"; onClicked: workspace.useSyntheticSource() }
                     RobotPanel { visible: root.panel === "Robot"; Layout.fillWidth: true; Layout.fillHeight: true }
                     PhantomPanel { visible: root.panel === "Phantom"; Layout.fillWidth: true; Layout.fillHeight: true }
+                    ML { visible: root.panel === "ML"; Layout.fillWidth: true; Layout.fillHeight: true }
                     Item { visible: root.panel !== "Phantom" && root.panel !== "Robot"; Layout.fillHeight: true }
                     Caption { visible: root.panel !== "Phantom" && root.panel !== "Robot"; Layout.fillWidth: true; wrapMode: Text.WordWrap; text: "ELECTRICAL PHANTOM\nFEA-derived data · illustrative anatomy\nNo hardware measurements" }
                 }

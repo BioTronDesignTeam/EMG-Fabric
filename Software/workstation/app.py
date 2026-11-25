@@ -12,6 +12,7 @@ from .ui.bridge import WorkspaceBridge
 from .ui.signal_plot import SignalPlot
 from .phantom.controller import PhantomController
 from .robot.controller import HandController
+from .ml.controller import MLController
 
 
 def main():
@@ -21,14 +22,17 @@ def main():
     bus = SignalBus()
     source = SyntheticSource(bus)
     SignalPlot.bus = bus
+    HandController.bus = bus
     qmlRegisterType(SignalPlot, 'Workstation', 1, 0, 'SignalPlot')
     hand = HandController()
     bridge = WorkspaceBridge(source, hand)
     phantom = PhantomController(source)
+    ml = MLController()
     engine = QQmlApplicationEngine()
     engine.rootContext().setContextProperty('workspace', bridge)
     engine.rootContext().setContextProperty('phantom', phantom)
     engine.rootContext().setContextProperty('hand', hand)
+    engine.rootContext().setContextProperty('ml', ml)
     engine.load(QUrl.fromLocalFile(str(Path(__file__).parent / 'ui/qml/Main.qml')))
     if not engine.rootObjects():
         phantom.close()
@@ -38,4 +42,5 @@ def main():
     app.aboutToQuit.connect(source.close)
     app.aboutToQuit.connect(phantom.close)
     app.aboutToQuit.connect(hand.close)
+    app.aboutToQuit.connect(ml.close)
     return app.exec()

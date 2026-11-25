@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "emg-workstation"
 version = "0.1.0"
 requires-python = ">=3.10"
-dependencies = ["PySide6>=6.8,<7", "numpy>=2.0", "scipy>=1.14,<2", "mujoco>=3.3,<4"]
+dependencies = ["PySide6>=6.8,<7", "numpy>=2.0", "scipy>=1.14,<2", "mujoco>=3.3,<4", "h5py>=3.16.0,<4", "pandas>=3.1.1"]
 
 [project.scripts]
 emg-workstation = "workstation.app:main"

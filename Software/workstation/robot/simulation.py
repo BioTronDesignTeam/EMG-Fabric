@@ -42,9 +42,16 @@ class HandSimulation:
             model = mujoco.MjModel.from_xml_path(str(self.model_path))
             data = mujoco.MjData(model)
             mujoco.mj_forward(model,data)
-            limits = model.actuator_ctrlrange.copy()
-            names = [mujoco.mj_id2name(model,mujoco.mjtObj.mjOBJ_JOINT,i) for i in range(model.njnt)]
-            targets = np.zeros(model.nu)
+            limits = model.jnt_range.copy()
+            names = []
+            for i in range(model.njnt):
+                name = mujoco.mj_id2name(
+                    model,
+                    mujoco.mjtObj.mjOBJ_JOINT,
+                    i
+                )
+                names.append(name)
+            targets = np.clip(np.zeros(model.njnt),limits[:,0],limits[:,1])
             deadline = time.monotonic()
             last_publish = 0.
             while not self._stop.is_set():
@@ -56,15 +63,15 @@ class HandSimulation:
                     targets = np.clip(incoming,limits[:,0],limits[:,1])
                 if reset:
                     mujoco.mj_resetData(model,data)
-                    targets[:] = 0
+                    targets[:] = np.clip(0,limits[:,0],limits[:,1])
                     with self._lock: self._targets = targets.copy()
                     mujoco.mj_forward(model,data)
-                data.ctrl[:] = targets
+                data.qpos[:] = targets
                 if running: mujoco.mj_step(model,data)
                 now = time.monotonic()
                 if now-last_publish >= 1/60:
                     snapshot = dict(status='MuJoCo running' if running else 'MuJoCo paused',ready=True,
-                                    time=float(data.time),qpos=data.qpos.copy(),targets=targets.copy(),
+                                    time=float(data.time),channelPositions=data.qpos.copy(),targets=targets.copy(),
                                     positions=data.xpos.copy(),quaternions=data.xquat.copy(),
                                     names=names,bodyNames=[mujoco.mj_id2name(model,mujoco.mjtObj.mjOBJ_BODY,i) for i in range(model.nbody)],limits=limits,stepHz=round(1/model.opt.timestep),
                                     contacts=int(data.ncon))

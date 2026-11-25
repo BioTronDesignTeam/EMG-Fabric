@@ -88,19 +88,23 @@ Rectangle {
         }
         Node {
             visible: frame.robot
-            position: Qt.vector3d(-5,82,-106)
+            // Align Shadow's forearm base and upright axis with the Bionic viewport pose.
+            position: hand && hand.modelIndex === 1 ? Qt.vector3d(-5,-207,-23) : Qt.vector3d(-5,82,-106)
             eulerRotation.x: -90
-            Repeater3D {
-                model: frame.robot && hand ? hand.bodies : []
-                delegate: Model {
-                    required property int index
-                    required property var modelData
-                    property var bodyPose: hand.poses.length > index ? hand.poses[index] : null
-                    objectName: "robotBody_" + modelData.name
-                    geometry: modelData.geometry
-                    position: bodyPose ? bodyPose.position : Qt.vector3d(0,0,0)
-                    rotation: bodyPose ? bodyPose.rotation : Qt.quaternion(1,0,0,0)
-                    materials: PrincipledMaterial { baseColor: "#bbcbd7"; metalness: .35; roughness: .6; cullMode: Material.NoCulling }
+            Node {
+                eulerRotation.y: hand && hand.modelIndex === 1 ? -90 : 0
+                Repeater3D {
+                    model: frame.robot && hand ? hand.bodies : []
+                    delegate: Model {
+                        required property int index
+                        required property var modelData
+                        property var bodyPose: hand.poses.length > index ? hand.poses[index] : null
+                        objectName: "robotBody_" + modelData.name
+                        geometry: modelData.geometry
+                        position: bodyPose ? bodyPose.position : Qt.vector3d(0,0,0)
+                        rotation: bodyPose ? bodyPose.rotation : Qt.quaternion(1,0,0,0)
+                        materials: PrincipledMaterial { baseColor: "#bbcbd7"; metalness: .35; roughness: .6; cullMode: Material.NoCulling }
+                    }
                 }
             }
         }
@@ -234,14 +238,14 @@ Rectangle {
         visible: frame.robot
         anchors.left: parent.left; anchors.top: parent.top; anchors.leftMargin: 14; anchors.topMargin: 58
         spacing: 5
-        Button { text: "CAD rest"; enabled: hand && hand.ready; onClicked: hand.setPose('rest') }
+        Button { text: hand && hand.modelIndex === 0 ? "CAD rest" : "Rest"; enabled: hand && hand.ready; onClicked: hand.setPose('rest') }
         Button { text: "Flex test"; objectName: frame.robot ? "robotFlexButton" : ""; enabled: hand && hand.ready; onClicked: hand.setPose('flex') }
         Button { text: "Spread"; enabled: hand && hand.ready; onClicked: hand.setPose('spread') }
     }
     Label {
         visible: frame.robot
         anchors.bottom: parent.bottom; anchors.left: parent.left; anchors.margins: 16
-        text: hand ? hand.status + " · " + hand.stepHz + " Hz\nManual control · " + hand.joints.length + " hinge candidates\nGesture inference: not connected" : "Loading MuJoCo…"
+        text: hand ? hand.status + " · " + hand.stepHz + " Hz\nManual control · " + hand.joints.length + " channels\nGesture inference: not connected" : "Loading MuJoCo…"
         color: "#a4bbc9"; font.pixelSize: 11; lineHeight: 1.5
     }
     Button {
