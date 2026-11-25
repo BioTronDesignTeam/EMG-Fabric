@@ -9,3 +9,4 @@ class SignalBlock:
     start_sample: int
     sample_rate: int
     samples: np.ndarray
+    labels: np.ndarray

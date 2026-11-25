@@ -1,0 +1,4 @@
+Changed Bus to broadcast and subscriber so it multiple plots can run at the same time
+Added Option to load hdf5 datasets
+Added Option to select between bionic arm and shadow hand
+Added ML Model selection (not implemented yet / only 1 model?)

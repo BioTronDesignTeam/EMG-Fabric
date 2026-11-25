@@ -6,13 +6,21 @@ build-backend = "setuptools.build_meta"
 name = "emg-workstation"
 version = "0.1.0"
 requires-python = ">=3.10"
-dependencies = ["PySide6>=6.8,<7", "numpy>=2.0", "scipy>=1.14,<2", "mujoco>=3.3,<4"]
+dependencies = ["PySide6>=6.8,<7", "numpy>=2.0", "scipy>=1.14,<2", "mujoco>=3.3,<4", "h5py>=3.16.0,<4", "pandas>=3.1.1", "torch", "pytorch-lightning", "hydra-core"]
 
 [project.scripts]
 emg-workstation = "workstation.app:main"
 
 [tool.setuptools.packages.find]
-include = ["workstation*"]
+where = [
+    ".",
+    "workstation/ml/emg2pose_main"
+]
+include = [
+    "workstation*",
+    "emg2pose*"
+]
+
 
 [tool.setuptools.package-data]
 workstation = ["ui/qml/*.qml", "ui/qml/qmldir", "robot/models/bionic_hand_delta_1_1/*.urdf", "robot/models/bionic_hand_delta_1_1/*.json", "robot/models/bionic_hand_delta_1_1/*.html", "robot/models/bionic_hand_delta_1_1/*.md", "robot/models/bionic_hand_delta_1_1/*.png", "robot/models/bionic_hand_delta_1_1/*.xml", "robot/models/bionic_hand_delta_1_1/*.npz", "robot/models/bionic_hand_delta_1_1/meshes/*.stl"]

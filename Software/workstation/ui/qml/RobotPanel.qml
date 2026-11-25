@@ -7,12 +7,26 @@ ScrollView {
     clip: true; contentWidth: availableWidth
     ColumnLayout {
         width: Math.max(0,panel.availableWidth-14); spacing: 12
+        Label { text: "HAND MODEL"; color: "#dce7ee"; font.bold: true }
+        ComboBox {
+            objectName: "robotHandSelector"
+            Layout.fillWidth: true
+            model: ["Bionic Hand", "Shadow Hand"]
+            currentIndex: hand ? hand.modelIndex : 0
+            onActivated: index => hand.setModel(index === 0 ? "bionic" : "shadow")
+        }
         Label { text: hand ? hand.status : ""; color: "#52dfcc"; Layout.fillWidth: true; wrapMode: Text.WordWrap }
-        Label { text: "CAD ARTICULATION PROTOTYPE"; color: "#dce7ee"; font.bold: true }
-        Label { text: "20 inferred hinges · 19 mapped controller channels. Hinge axes come from CAD bearing surfaces. Part grouping, travel limits, mass, collision proxies and servo gains are provisional."; color: "#9db1c2"; Layout.fillWidth: true; wrapMode: Text.WordWrap }
-        Label { text: "Manual testing · no gesture inference\nThe supplied CAD pose is the zero reference."; color: "#9db1c2"; Layout.fillWidth: true; wrapMode: Text.WordWrap }
+        Label { text: hand ? hand.modelName.toUpperCase() : "HAND"; color: "#dce7ee"; font.bold: true }
+        Label {
+            text: hand && hand.modelIndex === 0
+                  ? "20 inferred CAD hinges · 19 mapped controller channels. Joint limits, mass, collision proxies and servo gains remain provisional."
+                  : "Shadow Hand E3M5 model · 24 joints driven by 20 position actuators, including coupled finger tendons."
+            color: "#9db1c2"; Layout.fillWidth: true; wrapMode: Text.WordWrap
+        }
+        Button { text: (hand && hand.plot_label) ? "Pause Hand Gesture" : "Resume Hand Gesture"; onClicked: hand.toggleplot()}
+        Label { text: "Manual testing · no gesture inference\nThe supplied model pose is the zero reference."; color: "#9db1c2"; Layout.fillWidth: true; wrapMode: Text.WordWrap }
         RowLayout {
-            Button { text: "CAD rest"; enabled: hand && hand.ready; onClicked: hand.setPose('rest') }
+            Button { text: hand && hand.modelIndex === 0 ? "CAD rest" : "Rest"; enabled: hand && hand.ready; onClicked: hand.setPose('rest') }
             Button { text: "Flex test"; enabled: hand && hand.ready; onClicked: hand.setPose('flex') }
         }
         RowLayout {
@@ -29,7 +43,9 @@ ScrollView {
         }
         Label {
             Layout.fillWidth: true; wrapMode: Text.WordWrap; color: "#9db1c2"
-            text: hand && hand.joints.length && jointChoice.currentIndex >= 0 ? "Simulated angle: " + hand.joints[jointChoice.currentIndex].position.toFixed(1) + "°\nTarget: " + hand.joints[jointChoice.currentIndex].target.toFixed(1) + "°" : "Loading joints…"
+            text: hand && hand.joints.length && jointChoice.currentIndex >= 0
+                  ? "Simulated: " + hand.joints[jointChoice.currentIndex].position.toFixed(1) + hand.joints[jointChoice.currentIndex].unit + "\nTarget: " + hand.joints[jointChoice.currentIndex].target.toFixed(1) + hand.joints[jointChoice.currentIndex].unit
+                  : "Loading joints…"
         }
         Slider {
             objectName: "robotJointSlider"
@@ -40,7 +56,11 @@ ScrollView {
             value: enabled ? hand.joints[jointChoice.currentIndex].target : 0
             onMoved: hand.setJointTarget(jointChoice.currentIndex,value)
         }
-        Label { text: "Thumb middle is an extra CAD hinge candidate without a med01 channel. Verify its real mechanism before coupling or commanding hardware. Self-collision is disabled until rigid ownership is reviewed."; color: "#9db1c2"; Layout.fillWidth: true; wrapMode: Text.WordWrap }
+        Label {
+            visible: hand && hand.modelIndex === 0
+            text: "Thumb middle is an extra CAD hinge candidate without a med01 channel. Verify its real mechanism before coupling or commanding hardware. Self-collision is disabled until rigid ownership is reviewed."
+            color: "#9db1c2"; Layout.fillWidth: true; wrapMode: Text.WordWrap
+        }
         Label { text: "The Qt viewport draws actual MuJoCo body poses; sliders drive position actuators, not direct geometry animation."; color: "#9db1c2"; Layout.fillWidth: true; wrapMode: Text.WordWrap }
     }
 }
